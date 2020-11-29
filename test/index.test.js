@@ -1,7 +1,10 @@
 const { numbers, strings, dates } = require('../src')
 
+// The `describe` blocks represent each of the modules
 describe('Numbers module', () => {
 
+  // The `test` functions describe the tests in question.. 
+  // including a description of what the function should be doing
   test('Check if a given number is even or odd', () => {
     const isEven = numbers.isEven(29384)
     expect(isEven).toBe(true)
