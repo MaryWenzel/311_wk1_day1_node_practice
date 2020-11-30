@@ -11,11 +11,15 @@ const today = () => {
 
 const calendar = () => {
   // write code for dates.calendar
-  return moment().format('ll')
+  // Hint: moment().format(?)
+  console.log(moment().format('MMMM DD, YYYY'))
+  return moment().format('MMM DD, YYYY')
+  // return moment().format('LL')
 }
 
 const currentTime = () => {
   // write code for dates.currentTime
+  // Hint: moment().format(?)
   return moment().format('hh:mm:ss A')
 }
 

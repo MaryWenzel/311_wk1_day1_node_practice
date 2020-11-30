@@ -7,7 +7,7 @@ const split = (str, delim) => {
 
 const pairs = (str) => {
   // write code for strings.pairs
-  // Hint: For loop, increment by 2 (Ask help to figure out the for loop)
+  // Hint: For loop, increment by 2 
   return str.match(/.{2}/g)
 }
 
